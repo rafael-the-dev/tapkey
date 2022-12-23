@@ -1,0 +1,38 @@
+{
+  "name": "create-next-app-default",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/cache": "^11.10.3",
+    "@emotion/react": "^11.10.4",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.3",
+    "@mui/x-date-pickers": "^5.0.1",
+    "@next/font": "13.0.7",
+    "classnames": "^2.3.1",
+    "moment": "^2.29.4",
+    "next": "^12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.3.1",
+    "@types/node": "^18.7.21",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  }
+}
