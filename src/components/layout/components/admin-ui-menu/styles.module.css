@@ -1,0 +1,11 @@
+
+
+@media screen and (min-width: 1024px) {
+    .root {
+        width: 250px
+    }
+
+    .logoContainer {
+        height: 170px
+    }
+}
