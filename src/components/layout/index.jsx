@@ -12,9 +12,9 @@ const LayoutContainer = ({ children }) => {
     return (
         <div className={classNames(classes.root, "flex h-screen items-stretch")}>
             <Menu />
-            <main className="min-h-screen">
+            <div className="grow min-h-screen">
                 { children }
-            </main>
+            </div>
         </div>
     );
 };
